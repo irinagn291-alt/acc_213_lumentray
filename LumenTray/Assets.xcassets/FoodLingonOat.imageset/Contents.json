@@ -1,0 +1,22 @@
+{
+  "images": [
+    {
+      "filename": "LumenFoodLingon.png",
+      "idiom": "universal",
+      "scale": "1x"
+    },
+    {
+      "idiom": "universal",
+      "scale": "2x"
+    },
+    {
+      "idiom": "universal",
+      "scale": "3x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1,
+    "comment": "PROMPT: Shelf food, no text. Glass bowl of oat porridge with lingonberries, teal napkin ring, Scandinavian soft light."
+  }
+}

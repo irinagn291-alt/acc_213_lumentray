@@ -1,0 +1,22 @@
+{
+  "images": [
+    {
+      "filename": "LumenOnboardScan.png",
+      "idiom": "universal",
+      "scale": "1x"
+    },
+    {
+      "idiom": "universal",
+      "scale": "2x"
+    },
+    {
+      "idiom": "universal",
+      "scale": "3x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1,
+    "comment": "PROMPT: Onboarding, no text or readable codes. 3D glass prism over a pale tray, teal light ribbon #2A6F6F passing through like a scan, Scandinavian mist, pastel."
+  }
+}

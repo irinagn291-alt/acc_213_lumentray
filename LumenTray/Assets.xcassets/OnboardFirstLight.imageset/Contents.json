@@ -1,0 +1,22 @@
+{
+  "images": [
+    {
+      "filename": "LumenOnboardFirstLight.png",
+      "idiom": "universal",
+      "scale": "1x"
+    },
+    {
+      "idiom": "universal",
+      "scale": "2x"
+    },
+    {
+      "idiom": "universal",
+      "scale": "3x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1,
+    "comment": "PROMPT: Onboarding, no text. Hands placing a frosted glass oat bowl onto a luminous glass tray at first dawn, Scandinavian kitchen, teal #2A6F6F rim only, linen and stone."
+  }
+}

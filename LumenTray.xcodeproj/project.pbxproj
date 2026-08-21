@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E0B5EBA3E077913F3AF902 /* LumenScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7433B91DEDF6C15167F6351C /* LumenScanView.swift */; };
+		123B7C2D7307333DD6CBC605 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4894B619887F7BB2A6FFF1E2 /* Alamofire */; };
+		13D422FE9A8067326C37FCC1 /* LumenAssignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE3223F80290ED214EB059D /* LumenAssignView.swift */; };
+		1889953ED8A83C52AD255043 /* LumenEanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E611827D045356B143D23485 /* LumenEanTests.swift */; };
+		20AA31FDF81CADB100793220 /* LumenTrayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC58BAF761C91E09193503 /* LumenTrayApp.swift */; };
+		20E5E50D618D32DA91DE703B /* LumenEan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85074C0BC048257B4F3BFDB4 /* LumenEan.swift */; };
+		30EC164BC362361B8DDD662E /* LumenIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F89E0278745D192D550C1E /* LumenIntents.swift */; };
+		4666CAA746EDAD90CA986427 /* LumenSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C5DEDB458DA04302FD01C8 /* LumenSlot.swift */; };
+		4B6ECA6788EBF7838807D723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26246F13BEF4D8234585E030 /* Assets.xcassets */; };
+		4EA00E548EA413BE1001E1CD /* LumenSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875D2DC4B96BFD15C861414 /* LumenSeed.swift */; };
+		51C570014803B77551BB9310 /* TrayBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9121AF68D9E132CEB9461A6F /* TrayBoot.swift */; };
+		53BBA2412BB272C58F962B7F /* LumenTodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E2F69828C12B2BA194261D /* LumenTodayView.swift */; };
+		558A20200550A3EAD8916969 /* LumenGoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C37C14A0FE3EA7F64B7776 /* LumenGoods.swift */; };
+		847C2481E49AF05B605FA689 /* LumenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBFB9C5A391BD8F79CBFC2 /* LumenStore.swift */; };
+		8AC4291D9B2F53B2064EDB19 /* LumenDayTotalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219FBF437FD59E95B6FB8ED9 /* LumenDayTotalTests.swift */; };
+		8D71F9F841665F2A1B04E2E8 /* LumenScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B940B8B75856AB8B10060 /* LumenScale.swift */; };
+		96524C86112F22DAB2C20C37 /* LumenPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F8F03E7E55F600D70B3B65 /* LumenPalette.swift */; };
+		A63EE5F120D3375B96A8CCE2 /* LumenPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD5A662AA5411DB00889E49 /* LumenPlanView.swift */; };
+		B908D821CFED178741BE8669 /* GlassEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F949C6BA0584A7116B2F547 /* GlassEndpoint.swift */; };
+		B930324458CFBA2A2640C5F8 /* LumenRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C8EDFC53520B39FD8A584D /* LumenRootView.swift */; };
+		BBD4918FE204225CE6BF046A /* LumenEatenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534AB1F6D7036C5F2C4B78DA /* LumenEatenView.swift */; };
+		BC0797A45829A345630A1C26 /* LumenOnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D8940D2C85B223B1D09BFE /* LumenOnboardView.swift */; };
+		BC15610A86CDDA6328C4B45B /* LumenWishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC83377247F1B3A69040BC50 /* LumenWishView.swift */; };
+		BE2A3C23792FAE5DBA715589 /* LumenGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECBE9AC22F1EDFD884796BE /* LumenGoalsView.swift */; };
+		C646ED46A9B9C26C708FA77B /* LumenScaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D859FD3C0F14D342438515 /* LumenScaleTests.swift */; };
+		C7DF917C6595B60B1E5BFF51 /* LumenPaneScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87F878DA69D27FEB3A8918 /* LumenPaneScanner.swift */; };
+		CEC90D6A97965F30ADA098EB /* LumenDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339C41A5B62290A0FF23F172 /* LumenDetailView.swift */; };
+		D9185E24DCC96F133F4D44D8 /* LumenBite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7604612B5CFD8290F4CE5B55 /* LumenBite.swift */; };
+		F384CEA3B6FD603D76998992 /* LumenCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C355156F5C5710E4423FF /* LumenCatalog.swift */; };
+		F513B9E8EBCEC7FCB3E93661 /* LumenSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC79223AB4BC47A1F4CD78E /* LumenSearchView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCDDC5692238C59C693CB629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E8038F6B48A89BD95203576 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30DC7C7A1CD2602AD98B7CA1;
+			remoteInfo = LumenTray;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B2AC9E09C15C500CDCCA5A3 /* LumenTray.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = LumenTray.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE3223F80290ED214EB059D /* LumenAssignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenAssignView.swift; sourceTree = "<group>"; };
+		219FBF437FD59E95B6FB8ED9 /* LumenDayTotalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenDayTotalTests.swift; sourceTree = "<group>"; };
+		26246F13BEF4D8234585E030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		339C41A5B62290A0FF23F172 /* LumenDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenDetailView.swift; sourceTree = "<group>"; };
+		34E2F69828C12B2BA194261D /* LumenTodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenTodayView.swift; sourceTree = "<group>"; };
+		41C8EDFC53520B39FD8A584D /* LumenRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenRootView.swift; sourceTree = "<group>"; };
+		534AB1F6D7036C5F2C4B78DA /* LumenEatenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenEatenView.swift; sourceTree = "<group>"; };
+		545C355156F5C5710E4423FF /* LumenCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenCatalog.swift; sourceTree = "<group>"; };
+		57F89E0278745D192D550C1E /* LumenIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenIntents.swift; sourceTree = "<group>"; };
+		5875D2DC4B96BFD15C861414 /* LumenSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenSeed.swift; sourceTree = "<group>"; };
+		58DC58BAF761C91E09193503 /* LumenTrayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenTrayApp.swift; sourceTree = "<group>"; };
+		64D859FD3C0F14D342438515 /* LumenScaleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenScaleTests.swift; sourceTree = "<group>"; };
+		7433B91DEDF6C15167F6351C /* LumenScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenScanView.swift; sourceTree = "<group>"; };
+		7604612B5CFD8290F4CE5B55 /* LumenBite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenBite.swift; sourceTree = "<group>"; };
+		7FD5A662AA5411DB00889E49 /* LumenPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenPlanView.swift; sourceTree = "<group>"; };
+		85074C0BC048257B4F3BFDB4 /* LumenEan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenEan.swift; sourceTree = "<group>"; };
+		86C5DEDB458DA04302FD01C8 /* LumenSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenSlot.swift; sourceTree = "<group>"; };
+		86D8940D2C85B223B1D09BFE /* LumenOnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenOnboardView.swift; sourceTree = "<group>"; };
+		8F5B940B8B75856AB8B10060 /* LumenScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenScale.swift; sourceTree = "<group>"; };
+		8F949C6BA0584A7116B2F547 /* GlassEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassEndpoint.swift; sourceTree = "<group>"; };
+		9121AF68D9E132CEB9461A6F /* TrayBoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrayBoot.swift; sourceTree = "<group>"; };
+		A3F8F03E7E55F600D70B3B65 /* LumenPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenPalette.swift; sourceTree = "<group>"; };
+		B8C37C14A0FE3EA7F64B7776 /* LumenGoods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenGoods.swift; sourceTree = "<group>"; };
+		BC83377247F1B3A69040BC50 /* LumenWishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenWishView.swift; sourceTree = "<group>"; };
+		BDFBFB9C5A391BD8F79CBFC2 /* LumenStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenStore.swift; sourceTree = "<group>"; };
+		DC87F878DA69D27FEB3A8918 /* LumenPaneScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenPaneScanner.swift; sourceTree = "<group>"; };
+		DEC79223AB4BC47A1F4CD78E /* LumenSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenSearchView.swift; sourceTree = "<group>"; };
+		DECBE9AC22F1EDFD884796BE /* LumenGoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenGoalsView.swift; sourceTree = "<group>"; };
+		DECC196ED9339499DF952CA0 /* LumenTrayTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LumenTrayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E611827D045356B143D23485 /* LumenEanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenEanTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		641ADE0E7B4DA757A8EC5ABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123B7C2D7307333DD6CBC605 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59169EB3F55EB385CAF288F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7604612B5CFD8290F4CE5B55 /* LumenBite.swift */,
+				85074C0BC048257B4F3BFDB4 /* LumenEan.swift */,
+				B8C37C14A0FE3EA7F64B7776 /* LumenGoods.swift */,
+				8F5B940B8B75856AB8B10060 /* LumenScale.swift */,
+				86C5DEDB458DA04302FD01C8 /* LumenSlot.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6B95863C5DA323577E304EA6 /* LumenTray */ = {
+			isa = PBXGroup;
+			children = (
+				26246F13BEF4D8234585E030 /* Assets.xcassets */,
+				8F949C6BA0584A7116B2F547 /* GlassEndpoint.swift */,
+				58DC58BAF761C91E09193503 /* LumenTrayApp.swift */,
+				9121AF68D9E132CEB9461A6F /* TrayBoot.swift */,
+				8BD54693318FE06C9F90DA69 /* Controllers */,
+				59169EB3F55EB385CAF288F0 /* Models */,
+				B885D29D44D401A0FEDFDA7D /* Views */,
+			);
+			path = LumenTray;
+			sourceTree = "<group>";
+		};
+		891DDF76F22028A6BBA30265 /* LumenTrayTests */ = {
+			isa = PBXGroup;
+			children = (
+				219FBF437FD59E95B6FB8ED9 /* LumenDayTotalTests.swift */,
+				E611827D045356B143D23485 /* LumenEanTests.swift */,
+				64D859FD3C0F14D342438515 /* LumenScaleTests.swift */,
+			);
+			path = LumenTrayTests;
+			sourceTree = "<group>";
+		};
+		8BD54693318FE06C9F90DA69 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				545C355156F5C5710E4423FF /* LumenCatalog.swift */,
+				57F89E0278745D192D550C1E /* LumenIntents.swift */,
+				5875D2DC4B96BFD15C861414 /* LumenSeed.swift */,
+				BDFBFB9C5A391BD8F79CBFC2 /* LumenStore.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8FDBE565CE3E3657D9D61332 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B2AC9E09C15C500CDCCA5A3 /* LumenTray.app */,
+				DECC196ED9339499DF952CA0 /* LumenTrayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B885D29D44D401A0FEDFDA7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0EE3223F80290ED214EB059D /* LumenAssignView.swift */,
+				339C41A5B62290A0FF23F172 /* LumenDetailView.swift */,
+				534AB1F6D7036C5F2C4B78DA /* LumenEatenView.swift */,
+				DECBE9AC22F1EDFD884796BE /* LumenGoalsView.swift */,
+				86D8940D2C85B223B1D09BFE /* LumenOnboardView.swift */,
+				A3F8F03E7E55F600D70B3B65 /* LumenPalette.swift */,
+				DC87F878DA69D27FEB3A8918 /* LumenPaneScanner.swift */,
+				7FD5A662AA5411DB00889E49 /* LumenPlanView.swift */,
+				41C8EDFC53520B39FD8A584D /* LumenRootView.swift */,
+				7433B91DEDF6C15167F6351C /* LumenScanView.swift */,
+				DEC79223AB4BC47A1F4CD78E /* LumenSearchView.swift */,
+				34E2F69828C12B2BA194261D /* LumenTodayView.swift */,
+				BC83377247F1B3A69040BC50 /* LumenWishView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D993E87D4E3F7FF9A858B617 = {
+			isa = PBXGroup;
+			children = (
+				6B95863C5DA323577E304EA6 /* LumenTray */,
+				891DDF76F22028A6BBA30265 /* LumenTrayTests */,
+				8FDBE565CE3E3657D9D61332 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30DC7C7A1CD2602AD98B7CA1 /* LumenTray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0B0C272D2909F7AD87920E /* Build configuration list for PBXNativeTarget "LumenTray" */;
+			buildPhases = (
+				D194088A866CDE1B478F4F54 /* Sources */,
+				14695804C39401E9F7EBE666 /* Resources */,
+				641ADE0E7B4DA757A8EC5ABE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LumenTray;
+			packageProductDependencies = (
+				4894B619887F7BB2A6FFF1E2 /* Alamofire */,
+			);
+			productName = LumenTray;
+			productReference = 0B2AC9E09C15C500CDCCA5A3 /* LumenTray.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2BDBF41BC0E6893C5ACAC8F /* LumenTrayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DA894144989EBEE3A953D0 /* Build configuration list for PBXNativeTarget "LumenTrayTests" */;
+			buildPhases = (
+				E26809C4562B5ECF742C4D87 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D0C7C7F411938ED14D561EA /* PBXTargetDependency */,
+			);
+			name = LumenTrayTests;
+			packageProductDependencies = (
+			);
+			productName = LumenTrayTests;
+			productReference = DECC196ED9339499DF952CA0 /* LumenTrayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E8038F6B48A89BD95203576 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					30DC7C7A1CD2602AD98B7CA1 = {
+						ProvisioningStyle = Automatic;
+					};
+					D2BDBF41BC0E6893C5ACAC8F = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 333BED053EAF62D73DCE8D10 /* Build configuration list for PBXProject "LumenTray" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D993E87D4E3F7FF9A858B617;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FF9B569F14BC235659649BC5 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8FDBE565CE3E3657D9D61332 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30DC7C7A1CD2602AD98B7CA1 /* LumenTray */,
+				D2BDBF41BC0E6893C5ACAC8F /* LumenTrayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14695804C39401E9F7EBE666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6ECA6788EBF7838807D723 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D194088A866CDE1B478F4F54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B908D821CFED178741BE8669 /* GlassEndpoint.swift in Sources */,
+				13D422FE9A8067326C37FCC1 /* LumenAssignView.swift in Sources */,
+				D9185E24DCC96F133F4D44D8 /* LumenBite.swift in Sources */,
+				F384CEA3B6FD603D76998992 /* LumenCatalog.swift in Sources */,
+				CEC90D6A97965F30ADA098EB /* LumenDetailView.swift in Sources */,
+				20E5E50D618D32DA91DE703B /* LumenEan.swift in Sources */,
+				BBD4918FE204225CE6BF046A /* LumenEatenView.swift in Sources */,
+				BE2A3C23792FAE5DBA715589 /* LumenGoalsView.swift in Sources */,
+				558A20200550A3EAD8916969 /* LumenGoods.swift in Sources */,
+				30EC164BC362361B8DDD662E /* LumenIntents.swift in Sources */,
+				BC0797A45829A345630A1C26 /* LumenOnboardView.swift in Sources */,
+				96524C86112F22DAB2C20C37 /* LumenPalette.swift in Sources */,
+				C7DF917C6595B60B1E5BFF51 /* LumenPaneScanner.swift in Sources */,
+				A63EE5F120D3375B96A8CCE2 /* LumenPlanView.swift in Sources */,
+				B930324458CFBA2A2640C5F8 /* LumenRootView.swift in Sources */,
+				8D71F9F841665F2A1B04E2E8 /* LumenScale.swift in Sources */,
+				01E0B5EBA3E077913F3AF902 /* LumenScanView.swift in Sources */,
+				F513B9E8EBCEC7FCB3E93661 /* LumenSearchView.swift in Sources */,
+				4EA00E548EA413BE1001E1CD /* LumenSeed.swift in Sources */,
+				4666CAA746EDAD90CA986427 /* LumenSlot.swift in Sources */,
+				847C2481E49AF05B605FA689 /* LumenStore.swift in Sources */,
+				53BBA2412BB272C58F962B7F /* LumenTodayView.swift in Sources */,
+				20AA31FDF81CADB100793220 /* LumenTrayApp.swift in Sources */,
+				BC15610A86CDDA6328C4B45B /* LumenWishView.swift in Sources */,
+				51C570014803B77551BB9310 /* TrayBoot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26809C4562B5ECF742C4D87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC4291D9B2F53B2064EDB19 /* LumenDayTotalTests.swift in Sources */,
+				1889953ED8A83C52AD255043 /* LumenEanTests.swift in Sources */,
+				C646ED46A9B9C26C708FA77B /* LumenScaleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D0C7C7F411938ED14D561EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30DC7C7A1CD2602AD98B7CA1 /* LumenTray */;
+			targetProxy = CCDDC5692238C59C693CB629 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D0A38DA809C53BD3DF1DDA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LumenTray;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "LumenTray lifts a food barcode through the glass pane so a slot can be filled.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lumentray.glass;
+				PRODUCT_NAME = LumenTray;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E7E7536214A0D0F21FF63B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		963A4A394791D77E22AE5520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		A47FFEF3286F5AA5BD9DDC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lumentray.glass.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LumenTray.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LumenTray";
+			};
+			name = Release;
+		};
+		C410FF2ECB8CE99F183FB2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LumenTray;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "LumenTray lifts a food barcode through the glass pane so a slot can be filled.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lumentray.glass;
+				PRODUCT_NAME = LumenTray;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F08E8D29F51E9560C2A0A9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lumentray.glass.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LumenTray.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LumenTray";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05DA894144989EBEE3A953D0 /* Build configuration list for PBXNativeTarget "LumenTrayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08E8D29F51E9560C2A0A9A7 /* Debug */,
+				A47FFEF3286F5AA5BD9DDC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		333BED053EAF62D73DCE8D10 /* Build configuration list for PBXProject "LumenTray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963A4A394791D77E22AE5520 /* Debug */,
+				1E7E7536214A0D0F21FF63B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8D0B0C272D2909F7AD87920E /* Build configuration list for PBXNativeTarget "LumenTray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0A38DA809C53BD3DF1DDA4 /* Debug */,
+				C410FF2ECB8CE99F183FB2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF9B569F14BC235659649BC5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4894B619887F7BB2A6FFF1E2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF9B569F14BC235659649BC5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3E8038F6B48A89BD95203576 /* Project object */;
+}

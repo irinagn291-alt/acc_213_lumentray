@@ -1,0 +1,15 @@
+{
+  "images": [
+    {
+      "filename": "AppIcon.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "size": "1024x1024"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1,
+    "comment": "PROMPT: App icon, square, no text. 3D frosted glass breakfast tray from slightly above, pale Scandinavian linen, one teal-tinted glass cup #2A6F6F, pearlescent bowl, soft dawn light, minimalist pastel still life."
+  }
+}

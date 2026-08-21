@@ -1,0 +1,22 @@
+{
+  "images": [
+    {
+      "filename": "LumenOnboardSlots.png",
+      "idiom": "universal",
+      "scale": "1x"
+    },
+    {
+      "idiom": "universal",
+      "scale": "2x"
+    },
+    {
+      "idiom": "universal",
+      "scale": "3x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1,
+    "comment": "PROMPT: Onboarding, no text. Four frosted-glass dishes in a row on pale stone, dawn-to-dusk light left to right, teal #2A6F6F on last rim, 3D glass pastel."
+  }
+}

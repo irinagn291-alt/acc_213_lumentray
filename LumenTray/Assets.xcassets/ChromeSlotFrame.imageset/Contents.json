@@ -1,0 +1,22 @@
+{
+  "images": [
+    {
+      "filename": "LumenChromeFrame.png",
+      "idiom": "universal",
+      "scale": "1x"
+    },
+    {
+      "idiom": "universal",
+      "scale": "2x"
+    },
+    {
+      "idiom": "universal",
+      "scale": "3x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1,
+    "comment": "PROMPT: UI chrome, no text. Rounded rectangular frosted-glass slot bezel, empty center, teal #2A6F6F thin edge, pastel."
+  }
+}
