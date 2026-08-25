@@ -50,7 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B2AC9E09C15C500CDCCA5A3 /* LumenTray.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = LumenTray.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2AC9E09C15C500CDCCA5A3 /* LumenTray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LumenTray.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE3223F80290ED214EB059D /* LumenAssignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenAssignView.swift; sourceTree = "<group>"; };
 		219FBF437FD59E95B6FB8ED9 /* LumenDayTotalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenDayTotalTests.swift; sourceTree = "<group>"; };
 		26246F13BEF4D8234585E030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -346,7 +346,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lumentray.glass;
 				PRODUCT_NAME = LumenTray;
 				SDKROOT = iphoneos;
@@ -514,7 +514,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lumentray.glass;
 				PRODUCT_NAME = LumenTray;
 				SDKROOT = iphoneos;
